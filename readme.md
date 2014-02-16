@@ -22,18 +22,18 @@ Simple, light, flexible, and good-looking network button jquery plugin. This is 
 
 You can pass an options object when you call `share` on an element to make things a little more flexible.
 
-**github_on**: Yes/No for turning on GitHub network, _default: Yes
-**github_username**: Your GitHub username
-**twitter_on**: Yes/No for turning on Twitter network, _default: Yes
-**twitter_handle**: Your Twitter handle (not including @)
-**facebook_on**: Yes/No for turning on Facebook network, _default: Yes
-**facebook_name**: Your Facebook name
-**gplus_on**: Yes/No for turning on Google+ network, _default: Yes
-**gplus_url**: Your Google+ URL, either default or custom
-**email_on**: Yes/No for turning on Email option, _default: No
-**email_address**: Your Email Address
-**pinterest_on**: Yes/No for turning on the Pinterest network, _default: No
-**pinterest_username**: Your Pinterest username
+**github_on**: Yes/No for turning on GitHub network, _default: Yes  
+**github_username**: Your GitHub username   
+**twitter_on**: Yes/No for turning on Twitter network, _default: Yes  
+**twitter_handle**: Your Twitter handle (not including @)   
+**facebook_on**: Yes/No for turning on Facebook network, _default: Yes  
+**facebook_name**: Your Facebook name   
+**gplus_on**: Yes/No for turning on Google+ network, _default: Yes  
+**gplus_url**: Your Google+ URL, either default or custom   
+**email_on**: Yes/No for turning on Email option, _default: No  
+**email_address**: Your Email Address   
+**pinterest_on**: Yes/No for turning on the Pinterest network, _default: No   
+**pinterest_username**: Your Pinterest username   
 **background**: background color of the button, _default: `#e1e1e1`_    
 **color**: text color of the button, _default: '#333'_    
 **icon**: change the icon to the left. choose from [this set](http://weloveiconfonts.com/#entypo), _default: `export`_    
