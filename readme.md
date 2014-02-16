@@ -2,7 +2,7 @@ Network
 =====
 Simple, light, flexible, and good-looking network button jquery plugin. This is a fork of Carrot's share-button repo. Mad props to Carrot for most of the work.
 
-<p align="center"><a><img src="http://pbrd.co/MoJB5J" /></a></p>
+<p align="center"><img src="http://i.imgur.com/YhRtL0y.png" /></p>
 
 ### Why Should You Use This?
 
