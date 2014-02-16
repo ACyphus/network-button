@@ -1,11 +1,11 @@
-!function(){function getStyles(config){ return "<style>"+config.selector+"{width:90px;height:20px}"+config.selector+" [class*=entypo-]:before{font-family:entypo,sans-serif}"+config.selector+" label{font-size:16px;cursor:pointer;margin:0;padding:5px 10px;border-radius:5px;background:"+config.button_background+";color:"+config.button_color+";-webkit-transition:all .3s ease;transition:all .3s ease}"+config.selector+" label:hover{opacity:.8}"+config.selector+" label span{text-transform:uppercase;font-size:.85em;font-family:Lato,sans-serif;font-weight:900;-webkit-font-smoothing:antialiased;padding-left:6px}"+config.selector+" .social{-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform:scale(0) translateY(-190px);-ms-transform:scale(0) translateY(-190px);transform:scale(0) translateY(-190px);opacity:0;-webkit-transition:all .4s ease;transition:all .4s ease;margin-left:-15px}"+config.selector+" .social.active{opacity:1;-webkit-transition:all .4s ease;transition:all .4s ease}"+config.selector+" .social.active.center{margin-left:-45px}"+config.selector+" .social.active.left{margin-left:-115px}"+config.selector+" .social.active.right{margin-left:10px}"+config.selector+" .social.active.top{-webkit-transform:scale(1) translateY(-90px);-ms-transform:scale(1) translateY(-90px);transform:scale(1) translateY(-90px)}"+config.selector+" .social.active.top.center ul:after{margin:35px auto;border-top:20px solid #3b5998}"+config.selector+" .social.active.top.left ul:after{margin:35px 0 0 129px;border-top:20px solid #e34429}"+config.selector+" .social.active.top.right ul:after{margin:35px 0 0 10px;border-top:20px solid #6cdfea}"+config.selector+" .social.active.bottom{-webkit-transform:scale(1) translateY(45px);-ms-transform:scale(1) translateY(45px);transform:scale(1) translateY(45px);margin-top:-14px}"+config.selector+" .social.active.bottom.center ul:after{margin:-10px auto;border-bottom:20px solid #3b5998}"+config.selector+" .social.active.bottom.left ul:after{margin:-10px 0 0 129px;border-bottom:20px solid #e34429}"+config.selector+" .social.active.bottom.right ul:after{margin:-10px 0 0 10px;border-bottom:20px solid #6cdfea}"+config.selector+" .social ul{position:relative;left:0;right:0;width:180px;height:46px;color:#fff;background:#3b5998;margin:auto;padding:0;list-style:none}"+config.selector+" .social ul li{font-size:20px;cursor:pointer;width:60px;margin:0;padding:12px 0;text-align:center;float:left;display:block;height:22px;position:relative;z-index:2;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-transition:all .3s ease;transition:all .3s ease}"+config.selector+" .social ul li:hover{color:rgba(0,0,0,.5)}"+config.selector+" .social ul:after{content:'';display:block;width:0;height:0;position:absolute;left:0;right:0;border-left:20px solid transparent;border-right:20px solid transparent}"+config.selector+" .social li[class*=twitter]{background:#6cdfea;padding:12px 0}"+config.selector+" .social li[class*=gplus]{background:#e34429;padding:12px 0}</style>"};var $;
+!function(){function getStyles(config){ return "<style>"+config.selector+"{width:90px;height:20px}"+config.selector+" [class*=entypo-]:before{font-family:entypo,sans-serif}"+config.selector+" label{font-size:16px;cursor:pointer;margin:0;padding:5px 10px;border-radius:5px;background:"+config.button_background+";color:"+config.button_color+";-webkit-transition:all .3s ease;transition:all .3s ease}"+config.selector+" label:hover{opacity:.8}"+config.selector+" label span{text-transform:uppercase;font-size:.85em;font-family:Lato,sans-serif;font-weight:900;-webkit-font-smoothing:antialiased;padding-left:6px}"+config.selector+" .social{-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-transform:scale(0) translateY(-190px);-ms-transform:scale(0) translateY(-190px);transform:scale(0) translateY(-190px);opacity:0;-webkit-transition:all .4s ease;transition:all .4s ease;margin-left:-15px}"+config.selector+" .social.active{opacity:1;-webkit-transition:all .4s ease;transition:all .4s ease}"+config.selector+" .social.active.center{margin-left:-45px}"+config.selector+" .social.active.left{margin-left:-115px}"+config.selector+" .social.active.right{margin-left:10px}"+config.selector+" .social.active.top{-webkit-transform:scale(1) translateY(-90px);-ms-transform:scale(1) translateY(-90px);transform:scale(1) translateY(-90px)}"+config.selector+" .social.active.top.center ul:after{margin:35px auto;border-top:20px solid #fff;z-index:-2;}"+config.selector+" .social.active.top.left ul:after{margin:35px 0 0 129px;border-top:20px solid #e34429}"+config.selector+" .social.active.top.right ul:after{margin:35px 0 0 10px;border-top:20px solid #6cdfea}"+config.selector+" .social.active.bottom{-webkit-transform:scale(1) translateY(45px);-ms-transform:scale(1) translateY(45px);transform:scale(1) translateY(45px);margin-top:-14px}"+config.selector+" .social.active.bottom.center ul:after{margin:-10px auto;border-bottom:20px solid #3b5998}"+config.selector+" .social.active.bottom.left ul:after{margin:-10px 0 0 129px;border-bottom:20px solid #e34429}"+config.selector+" .social.active.bottom.right ul:after{margin:-10px 0 0 10px;border-bottom:20px solid #6cdfea}"+config.selector+" .social ul{position:relative;left:0;right:0;width:180px;height:46px;color:#fff;background:#3b5998;margin:auto;padding:0;list-style:none}"+config.selector+" .social ul li{font-size:20px;cursor:pointer;width:60px;margin:0;padding:12px 0;text-align:center;float:left;display:block;height:22px;position:relative;z-index:2;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-transition:all .3s ease;transition:all .3s ease}"+config.selector+" .social ul li:hover{color:rgba(0,0,0,.5)}"+config.selector+" .social ul:after{content:'';display:block;width:0;height:0;position:absolute;left:0;right:0;border-left:20px solid transparent;border-right:20px solid transparent}"+config.selector+" .social li[class*=twitter]{background:#6cdfea;padding:12px 0}"+config.selector+" .social li[class*=gplus]{background:#e34429;padding:12px 0}"+config.selector+" .social li[class*=github]{background:#fff;padding:12px 0;color:#555;}"+config.selector+" .social li[class*=github]:hover{background:#fff;padding:12px 0;color:#4183c4;}"+config.selector+" .social li[class*=pinterest]{background:#e34429;padding:12px 0;}"+config.selector+" .social li[class*=paper-plane]{background:#42c5b0;padding:12px 0}</style>"};var $;
 
 $ = jQuery;
 
 $.fn.share = function(opts) {
   var $body, $head;
   if ($(this).length === 0) {
-    console.log("Share Button: No elements found.");
+    console.log("Network Button: No elements found.");
     return;
   }
   $head = $('head');
@@ -20,16 +20,14 @@ $.fn.share = function(opts) {
       opts = {};
     }
     config = {};
-    config.url = opts.url || window.location.href;
     config.text = opts.text || $('meta[name=description]').attr('content') || '';
-    config.app_id = opts.app_id;
     config.title = opts.title;
     config.image = opts.image;
     config.flyout = opts.flyout || 'top center';
     config.button_color = opts.color || '#333';
     config.button_background = opts.background || '#e1e1e1';
-    config.button_icon = opts.icon || 'export';
-    config.button_text = typeof opts.button_text === 'string' ? opts.button_text : 'Share';
+    config.button_icon = opts.icon || 'users';
+    config.button_text = typeof opts.button_text === 'string' ? opts.button_text : 'Networks';
     set_opt = function(base, ext) {
       if (opts[base]) {
         return opts[base][ext] || config[ext];
@@ -37,24 +35,24 @@ $.fn.share = function(opts) {
         return config[ext];
       }
     };
-    config.twitter_url = set_opt('twitter', 'url');
-    config.twitter_text = set_opt('twitter', 'text');
-    config.fb_url = set_opt('facebook', 'url');
-    config.fb_title = set_opt('facebook', 'title');
-    config.fb_caption = set_opt('facebook', 'caption');
-    config.fb_text = set_opt('facebook', 'text');
-    config.fb_image = set_opt('facebook', 'image');
-    config.gplus_url = set_opt('gplus', 'url');
+    config.github_on = opts.github_on || 'Yes';
+    config.github_username = opts.github_username;
+    config.twitter_on = opts.twitter_on || 'Yes';
+    config.twitter_handle = opts.twitter_handle;
+    config.facebook_on = opts.facebook_on || 'Yes';
+    config.fb_name = opts.facebook_name;
+    config.gplus_on = opts.gplus_on || 'Yes';
+    config.gplus_url = opts.gplus_url;
+    config.email_on = opts.email_on || 'No';
+    config.email_address = opts.email_address;
+    config.pinterest_on = opts.pinterest_on || 'No';
+    config.pinterest_username = opts.pinterest_username;
     config.selector = "." + ($sharer.attr('class').split(" ").join("."));
-    config.twitter_text = encodeURIComponent(config.twitter_text);
-    if (typeof config.app_id === 'integer') {
-      config.app_id = config.app_id.toString();
-    }
     config.protocol = opts.protocol || (['http', 'https'].indexOf(window.location.href.split(':')[0]) === -1 ? 'https://' : '//');
-    if (!$('link[href="https://www.sharebutton.co/fonts/entypo.min.css"]').length) {
+    if (!$('link[href="https://www.sharebutton.co/fonts/entypo.css"]').length) {
       $("<link />").attr({
         rel: "stylesheet",
-        href: "https://www.sharebutton.co/fonts/entypo.min.css"
+        href: "https://www.sharebutton.co/fonts/entypo.css"
       }).appendTo($("head"));
     }
     if (!$('link[href="' + config.protocol + 'fonts.googleapis.com/css?family=Lato:900"]').length) {
@@ -66,14 +64,67 @@ $.fn.share = function(opts) {
     if (!$("meta[name='sharer" + config.selector + "']").length) {
       $('head').append(getStyles(config)).append("<meta name='sharer" + config.selector + "'>");
     }
-    $(this).html("<label class='entypo-" + config.button_icon + "'><span>" + config.button_text + "</span></label><div class='social " + config.flyout + "'><ul><li class='entypo-twitter' data-network='twitter'></li><li class='entypo-facebook' data-network='facebook'></li><li class='entypo-gplus' data-network='gplus'></li></ul></div>");
-    if (!window.FB && config.app_id && ($('#fb-root').length === 0)) {
-      $body.append("<div id='fb-root'></div><script>(function(a,b,c){var d,e=a.getElementsByTagName(b)[0];a.getElementById(c)||(d=a.createElement(b),d.id=c,d.src='" + config.protocol + "connect.facebook.net/en_US/all.js#xfbml=1&appId=" + config.app_id + "',e.parentNode.insertBefore(d,e))})(document,'script','facebook-jssdk');</script>");
-    }
+    // fix me 
+    var number_of_networks = $(".entypo-twitter").length;
+    console.log(number_of_networks);
+
+    // adjust width based on items turned on
+    var ul_width = 0;
+    if (config.github_on == 'Yes') {
+      ul_width += 60;
+    };
+    if (config.twitter_on == 'Yes') {
+    	ul_width += 60;
+    };
+    if (config.facebook_on == 'Yes') {
+    	ul_width += 60;
+    };
+    if (config.gplus_on == 'Yes') {
+    	ul_width += 60;
+    };
+    if (config.email_on == 'Yes') {
+      ul_width += 60;
+    };
+    if (config.pinterest_on == 'Yes') {
+      ul_width += 60;
+    };
+
+
+    // this needs to be set based on the count of services
+    var margin_left = -115;
+
+    var network_button_html = "<label class='entypo-" + config.button_icon + "'><span>" + config.button_text + "</span></label>";
+    network_button_html += "<div style='margin-left: " + margin_left + "px;' class='social ";
+    network_button_html += config.flyout;
+    network_button_html += "'><ul style='width:" + ul_width + "px;'>";
+    if (config.github_on == 'Yes') {
+      network_button_html += "<li class='service entypo-github' data-network='github'></li>";
+    };
+    if (config.twitter_on == 'Yes') {
+    	network_button_html += "<li class='service entypo-twitter' data-network='twitter'></li>";
+    };
+    if (config.facebook_on == 'Yes') {
+    	network_button_html += "<li class='service entypo-facebook' data-network='facebook'></li>";
+    };
+    if (config.gplus_on == 'Yes') {
+    	network_button_html += "<li class='service entypo-gplus' data-network='gplus'></li>";
+    };
+    if (config.email_on == 'Yes') {
+      network_button_html += "<li class='service entypo-paper-plane' data-network='email'></li>";
+    };
+    if (config.pinterest_on == 'Yes') {
+      network_button_html += "<li class='service entypo-pinterest' data-network='pinterest'></li>";
+    };
+    network_button_html += "</ul></div>";
+    console.log(network_button_html);
+    $(this).html(network_button_html);	
     paths = {
-      twitter: "http://twitter.com/intent/tweet?text=" + config.twitter_text + "&url=" + config.twitter_url,
-      facebook: "https://www.facebook.com/sharer/sharer.php?u=" + config.fb_url,
-      gplus: "https://plus.google.com/share?url=" + config.gplus_url
+    	github: "https://github.com/" + config.github_username,
+      twitter: "http://twitter.com/" + config.twitter_handle,
+      facebook: "https://www.facebook.com/" + config.fb_name,
+      gplus: "https://plus.google.com/" + config.gplus_url,
+      email: "mailto:" + config.email_address,
+      pinterest: "http:www.pinterest.com/" + config.pinterest_username
     };
     parent = $sharer.parent();
     bubbles = parent.find(".social");
@@ -91,29 +142,7 @@ $.fn.share = function(opts) {
     click_link = function() {
       var link, popup;
       link = paths[$(this).data('network')];
-      if (($(this).data('network') === 'facebook') && config.app_id) {
-        if (!window.FB) {
-          console.log("The Facebook JS SDK hasn't loaded yet.");
-          return;
-        }
-        window.FB.ui({
-          method: 'feed',
-          name: config.fb_title,
-          link: config.fb_url,
-          picture: config.fb_image,
-          caption: config.fb_caption,
-          description: config.fb_text
-        });
-      } else {
-        popup = {
-          width: 500,
-          height: 350
-        };
-        popup.top = (screen.height / 2) - (popup.height / 2);
-        popup.left = (screen.width / 2) - (popup.width / 2);
-        window.open(link, 'targetWindow', "toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,left=" + popup.left + ",top=" + popup.top + ",width=" + popup.width + ",height=" + popup.height);
-      }
-      return false;
+      window.open(link);
     };
     $sharer.find('label').on('click', toggle);
     $sharer.find('li').on('click', click_link);
